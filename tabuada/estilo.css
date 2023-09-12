@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(111, 226, 220);
+}
+
+p{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #f114df;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #f114df; ;
+    background-color: rgb(111, 226, 220);
+  }
+
+  input[type=submit] {
+        background-color: rgb(111, 226, 220);
+        color: #f114df;;
+        border: 2px solid#f114df;; 
+        border-radius: 2px;
+        font-family: "Lucida Console", "Courier New", monospace;
+    
+      }
