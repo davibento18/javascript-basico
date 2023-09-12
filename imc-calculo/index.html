@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>IMC</title>
+</head>
+<body>
+    <h1 class="text text-center" >Calculo IMC</h1>
+
+    <img src="imc.jpg" class="rounded mx-auto d-block" alt="...">
+
+    <div class="text-center">
+    <form name="imcForm" id="imcForm" action="#">
+        <p>
+            Altura<br>
+            <input type="text" id="altura" name="altura" />
+        </p>
+        <p>
+            Peso <br>
+            <input type="text" id="peso" name="peso" />
+        </p>
+        <p>
+            
+            <button type="button" class="btn btn-primary" value="Calcular" onclick="calcula_imc(event)">Calcular</button>
+        </p>
+        <div id="resul"></div>
+    </form>
+    <script src="imc2.js"></script>
+   </div>
+    
+</body>
+</html>
