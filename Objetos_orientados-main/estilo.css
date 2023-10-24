@@ -1,0 +1,95 @@
+
+img{
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(236, 222, 19);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(236, 222, 19);
+   margin-top: 20px;
+}
+
+#personForm {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+h1,h2{
+    padding-top: 15px;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db; /* Cor do texto (azul) */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre as letras */
+    text-shadow: 2px 2px 4px rgb(221, 208, 28); /* Sombra do texto */
+}
+
+p{
+    padding-top: 10px;
+    padding-bottom: 4px;
+    font-family: monospace;
+    color: black;
+
+}
+
+.texto{
+    text-align: center;
+}
+
+
+.display-details {
+    margin-top: 20px;
+    border-style: solid;
+}
+
+.p2{
+    text-align: center;
+}
+
+.footer {
+    margin-top: 10%;
+    background-color:rgb(236, 222, 19); /* Cor de fundo */
+    color:rgb(236, 222, 19); /* Cor do texto */
+    text-align: center;
+    padding: 10px;
+    font-family: monospace;
+
+}
+
+.nav1{
+    background-color: rgb(228, 215, 30);
+}
+
+a{
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000; /* Cor do texto (azul) */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre as letras */
+    text-align: center; /* Alinhamento central */
+    text-shadow: 2px 2px 4px rgb(224, 221, 19); /* Sombra do texto */
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
