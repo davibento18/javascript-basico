@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+.responsivel{
+    width: 100%;
+}
+
+.responsivel_baixo{
+    margin-bottom: 3%;
+}
